@@ -1,0 +1,7 @@
+- if @locations
+  - @locations.each do |location|
+    .item
+      %p 
+        = location.lat
+        = location.lng
+        = location.created_at.in_time_zone('Europe/Kiev')
