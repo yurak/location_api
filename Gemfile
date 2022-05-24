@@ -29,6 +29,8 @@ gem "jbuilder"
 
 gem 'rspec-rails'
 
+gem 'coveralls_reborn', '~> 0.20.0', require: false
+
 gem 'telegram-bot-ruby'
 gem 'pry-rails'
 
